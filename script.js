@@ -1,2 +1,9 @@
 const iqbal = "happy";
-console.log(iqbal);
+
+if (iqbal === "happy") {
+	console.log("oke iqbal");
+	return;
+} else {
+	console.log("why iqbal");
+	return;
+}
